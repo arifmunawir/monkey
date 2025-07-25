@@ -3,19 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>FuvkYou</title>
+  <title>Responsive Centered Image</title>
   <style>
-    body {
+    html, body {
+      height: 100%;
       margin: 0;
-      padding: 0;
-      text-align: center;
+    }
+    body {
+      display: flex;
+      justify-content: center;  /* center secara horizontal */
+      align-items: center;      /* center secara vertikal */
       background-color: #f0f0f0;
     }
     img {
       max-width: 100%;
       height: auto;
-      display: block;
-      margin: auto;
     }
   </style>
 </head>
@@ -23,4 +25,3 @@
   <img src="monkey.jpg" alt="Monkey">
 </body>
 </html>
-
